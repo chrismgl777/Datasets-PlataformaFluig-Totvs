@@ -3,68 +3,68 @@
 ![Banner correto](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/7dd2e03b-3880-44d1-b176-99f0eaf8beed)
 
 <H3>  Eclipse   </H3> 
- 1.1.2 - Dentro do Eclipse, é necessário criar um projeto Fluig: <br>
+ 1.0 - Dentro do Eclipse, é necessário criar um projeto Fluig: <br>
  Clicando com o botão direito, dentro da aba "Project Explorer", localizamos a aba "New", dentro dela, o "Projeto Fluig"<br> 
 
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/221ac414-c3e9-42d1-bec6-8709f29c9dc7) <br>
 
- 1.1.4 - Configuração da pasta do Projeto: <br>
+ 1.1- Configuração da pasta do Projeto: <br>
  Podemos analisar 3 opções de configurações na criação do projeto: <br>
  ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/91b77e71-70e3-4dfd-9f12-10573824fbe0)<br>
  1.1.6 Na primeira opção, escolhemos o nome que vamos dar ao projeto, normalmente,inserimos o nome do Dataset ou do projeto Real, para facilitar na localização. <br>
        Na segunda opção, podemos escolher aonde iremos armazenar o projeto criado, eu mantenho por default. <br>
        Na terceira opção, escolhemos se vamos inserir o projeto em um grupo de elementos, utilizamos essa opção para focar o projeto em um grupo que você esteja trabalhando. Por exemplo: <br>
        Estou criando um  Dataset para um projeto em especifico, eu posso inserir dentro desse grupo de elementos, fazendo com que eu possa focar em uma pasta especifica e o projeto não ficar solto. <br>
-1.1.7 - Projeto criado: <br>
+1.2 - Projeto criado: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/1df883ea-d3e2-4cf7-9011-31042af94078) <br>
-1.1.8 - Criando o ambiente do Dataset <br>
+1.2 - Criando o ambiente do Dataset <br>
  ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/d6ebe12f-be17-4f0f-b393-cad4bd0e34e9) <br>
-1.1.9 - Inserindo nome e descrição : <br>
+1.3 - Inserindo nome e descrição : <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/c060fae1-648a-48ea-94f8-55d83b3ddff5) <br>
 Aqui, inserimos o nome do nosso Dataset, aqui colocamos o mesmo esquema do nome do projeto, porém nesse caso, precisamos inserir um nome para identificar de forma facilitada o nome do dataset. <br>
 Na descrição, podemos somente inserir o mesmo nome do Dataset ou colocar uma breve apresentação: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/6d802be5-0a40-4409-b324-2890f7955c54) <br>
 Nesse caso, inseri um nome que indicasse oque ele realiza e sua descrição : <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/992782c6-c839-4ed8-bad4-a21a5311035c) <br>
-1.1.10 - Entendendo a estrutura: <br>
+1.4 - Entendendo a estrutura: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/4a22f0b6-6553-4d65-9a71-3d796e76c303) <br>
-1.1.11 - Podemos analisar, que os datasets possuem sua própria pasta. Então todos os datasets do processo que estamos criando, devem ficar agrupados no mesmo local. <br>
-1.1.12 - Function defineStructure () {} <br>
+1.5 - Podemos analisar, que os datasets possuem sua própria pasta. Então todos os datasets do processo que estamos criando, devem ficar agrupados no mesmo local. <br>
+1.6 - Function defineStructure () {} <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/1c363bde-50d7-4915-a129-b87e92df3a53) <br>
 Utilizado para  definir uma estrutura,utilizado em datasets Jornalizados.  <br>
 
-1.1.13 - Function onSync(lastSyncDate) {} <br>
+1.7 - Function onSync(lastSyncDate) {} <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/cfdf8420-7545-4cda-94fb-448a77842e25) <br>
 Utilizado para sincronizar dados, como um dataset que sincroniza com um servidor.<br>
 
-1.1.14 - Function createDataset(fields, constraints, sortFields) {} <br>
+1.7 - Function createDataset(fields, constraints, sortFields) {} <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/0bd005f3-ddae-40f7-b8f1-398efaf40dc9) <br>
 Utilizado para criar os datasets. <br>
 
-1.1.15 - Function onMobileSync (user) {} <br>
+1.8 - Function onMobileSync (user) {} <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/7236034a-cfb4-4f4b-90b6-2e34f13d7bd2) <br>
 Utilizado para criar parametros espeficios para aplicativos mobile. <br>
-2.0 - Construindo o Dataset <br>
-2.1.1 - Instanciamos um construtor: <br>
+1.9 - Construindo o Dataset <br>
+1.10 - Instanciamos um construtor: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/34a6da93-8b45-4505-bd8d-855fe2003e99) <br>
 Aqui, eu escolho o nome da variavel, que no caso, vai ser o nome do dataset também. <br>
 Chamamos o construtor DatasetBuilder.newDataset() e jogamos o valor dentro da variavel "funcionariosrv". <br>
-2.1.2 -Criando colunas <br>
+2.0 -Criando colunas <br>
 
-2.1.3 - Criando as colunas: <br>
+2.1 - Criando as colunas: <br>
 
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/6595be2d-c50d-49e6-8c7a-1f59de1095cc)
 
 
 Inserimos o nome da coluna, que no caso, funciona como se fosse uma tabela a ser demonstrada. Sendo assim, esse dataset vai possuir alguns pontos de informações, tais como; O nome do usuário, cargo, setor e se esta ativo ou não. <br>
-2.1.4 - Adicioando as linhas da coluna: <br>
+2.2 - Adicioando as linhas da coluna: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/7c29db45-4b6c-4f73-8132-0ce21c1d4df2) <br>
 Aqui, adicionamos os valores as colunas, separando por vírgula e aspas duplas, separamos os valores em ordem sequencial das colunas. <br>
 O comando addRow passa o comando, instanciamos o array e inserimos os valores. <br>
-2.1.5 - Retornando a função : <br>
+2.3 - Retornando a função : <br>
  ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/4bad99de-2692-49c7-b02f-1f2da7ed442c) <br>
 
-2.1.5 - Exportando o Dataset para o fluig <br>
+2.4 - Exportando o Dataset para o fluig <br>
  Após realizarmos a construção do Dataset e passado seu valor, podemos exportar para o Fluig para realizar a consulta: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/68134ff4-9fbc-4158-9c43-bef14adfa702) <br>
 
@@ -72,13 +72,13 @@ Observação: <br>
 Para  consultarmos, não é necessário exportar todo o projeto, somente o Dataset. <br>
 Ali, você pode analisar duas opções, exportar e importar, utilizamos o exportar para enviar para o Fluig, isso acontece quando realizamos alteraçóes, correções ou qualquer interferencia no código.<br>
 O  importar é realizado para retirarmos do fluig  o desenvolvimento para alterarmos, analisarmos ou qualquer outro fim manual. <br>
-2.1.6 - Aqui inserimos  a opção de "Exportar para o servidor Fluig: <br>
+2.5 - Aqui inserimos  a opção de "Exportar para o servidor Fluig: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/7bc1f41a-c089-4b71-91b3-45ce67fc2b38) <br>
 Aqui escolhemos qual o servidor vão exportar, caso seja um novo Dataset, marcamos a opção.
 Na aba Dataset inserimos o nome dele e na descrição, podemos escolher se inserimos uma informação prévia ou repetimos o nome. No meu caso, escolhi não dar descrição pois o nome do Dataset é auto explicativo. Assim confirmamos a exportação <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/abd54c50-96a0-479c-b769-cd8d6bcadda0) <br>
 
-2.1.7 - Analisando o Dataset dentro do Fluig <br>
+2.6 - Analisando o Dataset dentro do Fluig <br>
 Já com o seu fluig aberto, é necessário acessar o menu lateral e localizar o painel de controle, desta forma: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/de74b4c7-6547-4d6c-a831-7848b613dd98) <br>
 Dentro do painel de controle, localizamos a tarefa chamada "Datasets", onde utilizamos para analisar sua situação e administrar seus arquivos. <br>
@@ -100,7 +100,7 @@ O desativar já fala por si só, não é mesmo ? <br>
 Observação !! <br>
 Lembra quando falamos sobre a sincronização do Dataset ? Utilizamos muito esta opção, nela podemos analisar a programação da tarefa, analisar a hora que o Dataset esta programado para rodar, por exemplo ; Miinutos em minuto, hora em hora, sendo muito utilizado em setores financeiros. <br>
 Por exemplo: Criamos um Dataset que prepara pagamentos de una solicitação, ele precisa rodar em determinadas horas, realizando a tarefa automaticamente, podemos através dessa tarefa, analisar o andamento. As vezes, no Datasul ou sistema que estiver integrado, realizou uma nova atualização. Com o dataset programado para rodar em determinada hora, ele vai aceitar essa atualização e integrar. <br>
-2.1.8 - Analisando a parametrização do Dataset: <br>
+2.7 - Analisando a parametrização do Dataset: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/0e8e1351-9645-4062-a9c4-720d3fd28456) <br>
 Aqui, podemos analisar algumas informações, tais como: <br>
 Se possui integração com o servidor. <br>
@@ -119,13 +119,13 @@ Primeiro, vamos inserir mais valores no  Dataset ! <br>
 Pronto, agora com mais informações,vamos exportar novamente para o Fluig ! <br>
 Atenção !! Desta vez. não vamos criar um novo Dataset,vamos exportar em cima do que ja estava,então nao marcamos a opção de "Novo Dataset", também precisamos confirmar a atualização do documento após apertar "Finish" <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/00b32193-b3c5-47e1-baa0-7f564093c41b) <br>
-2.1.9  Vamos analisar atualização no Fluig ?? Realizando a busca que foi visto anteriormente, podemos analisar os dados atuais do Dataset: <br>
+2.8  Vamos analisar atualização no Fluig ?? Realizando a busca que foi visto anteriormente, podemos analisar os dados atuais do Dataset: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/326c1b6e-04c2-4029-8643-43e489600dce) <br>
 Sendo assim, conseguimos criar um Dataset no Fluig ! Vamos para o proximo passo ? <br>
-2.1.10 - Filtragem de Dados de um Dataset <br>
-2.1.11 - Imagina essa determinada Situação : <br>
+2.9 - Filtragem de Dados de um Dataset <br>
+2.10 - Imagina essa determinada Situação : <br>
 Em um processo do Fluig, é necessário apenas da informação do Status do Usuario e seu nome, para realizar inventários,desativações ou por motivos de controle, oque fariamos nesse caso ? Tendo em vista que o Dataset esta entregando conteúdo acima do desejado para determinado fluxo ?? Criamos um dataset de Filtragem. Vamos começar ! <br>
-2.1.12 - Criando um Dataset de Filtragem <br>
+2.11 - Criando um Dataset de Filtragem <br>
 Iniciamos criando um novo Dataset: <br>
 ![image](https://github.com/chrismlg777/Cria-o-de-Dataset-Filtragem-de-dados./assets/94884172/c2c01211-a4a8-4c1c-a205-a8b0af4a57c2) <br>
 Inserimos o nome e descrição, como falado anteriormente: <br>
